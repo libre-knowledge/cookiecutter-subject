@@ -1,0 +1,11 @@
+{
+    "subject_name": "未命名主題",
+    "subject_name_english": "Unnamed subject",
+    "project_slug": "{{ cookiecutter.subject_name_english.lower().replace(' ', '-') }}",
+    "project_summary": "(A brief description of the project)",
+    "__project_copyright_year": "{% now 'utc', '%Y' %}",
+    "_jinja2_env_vars": {
+        "comment_start_string": "{##########DISABLED#########"
+    },
+    "_extensions": ["cookiecutter.extensions.TimeExtension"]
+}
