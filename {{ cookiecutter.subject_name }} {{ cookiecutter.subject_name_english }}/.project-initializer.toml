@@ -1,0 +1,24 @@
+# Example project-initializer configuration
+#
+# Copyright 2026 林博仁(Buo-ren Lin) <buo.ren.lin@gmail.com>
+# SPDX-License-Identifier: CC-BY-SA-4.0
+
+[project]
+identifier = "{{ cookiecutter.project_slug }}"
+display_name = "{{ cookiecutter.subject_name }} {{ cookiecutter.subject_name_english }}"
+description = "{{ cookiecutter.project_summary }}"
+topics = [
+    "lkcp",
+    "lkcp-topics",
+]
+
+[gitlab]
+url = "https://gitlab.com"
+#token = "REDACTED"
+namespace = "libre-knowledge"
+
+[github]
+api_url = "https://api.github.com"
+#token = "REDACTED"
+#mirror_pat = "REDACTED"
+organization = "libre-knowledge"
